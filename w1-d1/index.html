@@ -3,49 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ignite</title>
     <style>
-        body {
-            text-align: center;
-            width: 90%;
-        }
-        table, td, th {
-            border: 1px solid black;
-            padding: 5px;
-        }
-        table{
-            width: 50%;
-            border-collapse: collapse;
-            margin-left: auto;
-            margin-right: auto;
-        }
+
     </style>
 </head>
 <body>
-    <h1>Nikolaj Thomsen</h1>
-    <img src="Nikolaj.jpg" alt="Nikolaj Thomsen" height="200px">
-    <h2>Intro</h2>
-    <p>Hi, my name is Nikolaj I am from Denmark, living in Copenhagen but born and raised in a Smaller town called Kolding</p>
-    <h2>Job History</h2>
-    <table>
-        <tr>
-            <td><strong>Company</strong></td>
-            <td><strong>Role</strong></strong></td>
-        </tr>
-        <tr>
-            <td>Accenture</td>
-            <td>Senior Analyst</td>
-        </tr>
-        <tr>
-            <td>Eksponent</td>
-            <td>Digital Project Manager</td>
-        </tr>
-        <ol>
-            <li>List element</li>
-            <li>New element</li>
-            <li>Another new element</li>
-        </ol>
-    </table> 
-    
+    <section id="bodycontainer">
+        <h1>Nikolaj Thomsen</h1>
+        <div class="contact-info">
+            <img src="Nikolaj.jpg" alt="Nikolaj Thomsen" height="200px" class="image">
+                <p class="text-right"><strong>Name:</strong> Nikolaj<br>
+                <strong>Email</strong> nikolaj.thomsen@gmail.com</p>
+        </div>
+
+        <div class="flex-container">
+            <div class="blue-box">
+                <h2>Technical skills</h2>
+                <p>CSS</p>
+                <p>HTML</p>
+            </div>
+            <div class="red-box">
+                <h2>Soft skills</h2>
+                <p>Project management</p>
+                <p>Software testing</p>
+            </div>
+            <div class="green-box">
+                <h2>Hobbies</h2>
+                <p>Computer games</p>
+                <p>Board games</p>
+                <p>Travelig</p>
+                <p>Squash</p>
+            </div>
+        </div>
+        
+        <h2>Intro</h2>
+        <p>Hi, my name is Nikolaj I am from Denmark, living in Copenhagen but born and raised in a Smaller town called Kolding</p>
+        <h2>Job History</h2>
+        <table>
+            <tr>
+                <td><strong>Company</strong></td>
+                <td><strong>Role</strong></strong></td>
+            </tr>
+            <tr>
+                <td>Accenture</td>
+                <td>Senior Analyst</td>
+            </tr>
+            <tr>
+                <td>Eksponent</td>
+                <td>Digital Project Manager</td>
+            </tr>
+            <ol>
+                <li>List element</li>
+                <li>New element</li>
+                <li>Another new element</li>
+                <li>new element again</li>
+            </ol>
+        </table> 
+    </section>
 </body>
 </html>

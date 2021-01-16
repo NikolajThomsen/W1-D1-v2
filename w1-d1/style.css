@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2%;
+}
+.image{
+    float: left;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.blue-box{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.green-box{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.red-box{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+
+.text-right{
+    display:inline-block;
+    margin:0;
+    margin-left: 1rem;
+}
+
+.contact-info{
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom: 2rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
